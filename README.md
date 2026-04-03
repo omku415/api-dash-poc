@@ -91,8 +91,12 @@ sample/
 
 ---
 
-## Motivation
+## AI / MCP Integration Perspective
 
-Setting up APIs manually is repetitive and time-consuming.
+This PoC focuses on generating structured API request templates from OpenAPI specifications.
 
-This PoC demonstrates how OpenAPI specifications can be transformed into structured request templates automatically, providing a foundation for intelligent API tooling and AI-assisted workflows.
+These templates can be used by AI agents as structured tools, enabling dynamic API interaction without manual configuration.
+
+In an MCP-style architecture, the generated templates can be rendered as interactive API explorers within chat-based interfaces, allowing users to trigger API calls directly from an AI assistant.
+
+This aligns with the idea of exposing APIs as tools that can be discovered, invoked, and visualized inside agent-driven environments.
